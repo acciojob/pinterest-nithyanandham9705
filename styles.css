@@ -1,1 +1,26 @@
-/*  your css code here. If applicable */
+/* Apply CSS to the container */
+.hero {
+    display: flex;
+    justify-content: center; /* You can adjust this as needed */
+    align-items: center; /* You can adjust this as needed */
+    background-color: lightblue; /* Add background color if needed */
+    padding: 20px; /* Add padding as needed */
+}
+
+/* Style the image */
+.imgtag img {
+    width: 100%; /* Make the image 100% of its container's width */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Clip and cover */
+    max-height: 300px; /* Limit the maximum height if necessary */
+}
+
+/* Style the "Explore now" button/link */
+.explore-button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007BFF; /* Background color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underlines from links */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Make it inline-block to respect padding */
+}
